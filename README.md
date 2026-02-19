@@ -19,6 +19,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1BkLqO40lVNs9qVs82P6GzI
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init -p
    ```
+   (CSS entrypoint lives at `src/index.css` and is imported from the root `index.tsx`.)
 2. Add or replace `favicon.ico` in the project root so the browser stops logging 404 errors.
 3. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key.
 4. Run the app:
