@@ -69,7 +69,7 @@ export const MainInterface: React.FC<MainInterfaceProps> = ({ initialCoords }) =
 
   return (
     <div className="space-y-6 animate-[fadeIn_0.5s_ease-out]">
-      <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-primary relative overflow-hidden">
+      <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-primary relative overflow-hidden max-w-md mx-auto">
         {/* Decorative Grid Background */}
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
         

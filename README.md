@@ -24,7 +24,9 @@ View your app in AI Studio: https://ai.studio/apps/drive/1BkLqO40lVNs9qVs82P6GzI
 3. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key.
 4. Run the app:
    `npm run dev`
-
+> Note: The user interface has been streamlined for performance and simplicity. The
+> logo no longer responds to clicks, and hidden/secret modes have been removed.
+> The container width is narrower on desktop to avoid overly large layouts.
 > The project now uses a locally built Tailwind stylesheet instead of the CDN script. The relevant
 > configuration lives in `tailwind.config.js` and you should run the `build` script before
 > deploying for production so unused CSS is purged.
