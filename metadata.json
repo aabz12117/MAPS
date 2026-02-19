@@ -1,0 +1,5 @@
+{
+  "name": "DarkCode Intel System",
+  "description": "A high-tech, cyberpunk-themed geolocation intelligence dashboard. Features coordinate conversion, Google Maps URL parsing, and a hidden developer mode.",
+  "requestFramePermissions": []
+}
