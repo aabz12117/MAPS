@@ -105,7 +105,7 @@ export const MainInterface: React.FC<MainInterfaceProps> = ({ initialCoords }) =
       </div>
 
       {result && (
-        <div className="glass-panel p-0 rounded-2xl overflow-hidden animate-[slideUp_0.5s_ease-out]">
+        <div className="glass-panel p-0 rounded-2xl overflow-hidden animate-[slideUp_0.5s_ease-out] max-w-md mx-auto">
           {/* Header */}
           <div className="bg-white/5 border-b border-white/10 p-4 flex justify-between items-center">
              <div className="flex items-center gap-2">
