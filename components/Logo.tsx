@@ -12,7 +12,8 @@ export const Logo: React.FC<LogoProps> = ({ size = "normal", onClick }) => {
   return (
     <div 
       onClick={onClick}
-      className="flex items-center gap-3 select-none cursor-default"
+      className={`flex items-center gap-3 select-none ${onClick ? 'cursor-pointer' : 'cursor-default'}`}
+      role={onClick ? 'button' : undefined}
     >
        <div className={`
           flex items-center justify-center rounded-lg bg-primary/10 border border-primary/20 text-primary shadow-[0_0_15px_rgba(59,130,246,0.3)]
