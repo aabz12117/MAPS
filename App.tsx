@@ -7,13 +7,13 @@ export default function App() {
     <div className="min-h-screen flex flex-col items-center py-10 px-4 md:px-0 relative z-10">
       
       {/* Header */}
-      <header className="mb-12 w-full max-w-2xl flex flex-col items-center space-y-4">
+      <header className="mb-12 w-full max-w-xl flex flex-col items-center space-y-4">
         <Logo />
         <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent rounded-full opacity-50"></div>
       </header>
 
       {/* Main Content */}
-      <main className="w-full max-w-2xl">
+      <main className="w-full max-w-xl">
          <MainInterface />
       </main>
 

@@ -19,9 +19,7 @@ module.exports = {
         success: '#22C55E',
         dim: '#9CA3AF',
       },
-      backgroundImage: {
-        carbon: "url('https://www.transparenttextures.com/patterns/carbon-fibre.png')",
-      },
+
       animation: {
         scan: 'scan 4s linear infinite',
         'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
